@@ -29,7 +29,7 @@ jobs:
         sudo apt-get update -y
         sudo apt install binutils make python3 libssl-dev build-essential bc bison flex zip unzip xz-utils mkbootimg cpio device-tree-compiler git git-lfs -y
         git clone --depth=1 https://github.com/kdrag0n/proton-clang.git clang
-        git clone https://github.com/ij-israfil/AnyKernel3 -b master --depth=1
+        git clone --depth=1 https://github.com/th4rv4/AnyKernel3
         rm -rf AnyKernel3/.git AnyKernel3/.github
 
     - name: GetTime
